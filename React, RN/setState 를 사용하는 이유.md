@@ -16,7 +16,7 @@
 - setState 는 새로운 객체를 만들어 상태를 변경시킨다.(새로운 참조 주소)
 - 상태는 클로저를 활용한다.
 - 예시
-```
+```js
 const [state, setState] = useState('초기값');
 setState('변경될 값')
 
